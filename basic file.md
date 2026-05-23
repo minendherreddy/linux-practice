@@ -23,4 +23,4 @@ example:
 
 "<" -- this indicates the contents from the file1
 ">" -- this indicates the contents from the file2
-
+diff -r directory1 directory2 -- will compare those two directories if there is any change or if the file present in  directory1 is not present in directory two it will print those
