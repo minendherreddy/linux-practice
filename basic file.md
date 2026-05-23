@@ -14,3 +14,13 @@ head -c1 file.txt - will print only one character(one byte-8 bits) from the file
 tail -c1 file.txt - will print only one character from the file from the last.
 -c2= two characters from the last, -c3= three characters from the last.
 etc etc....
+diff file1.txt file2.txt -- will compare the two files and if there is any change in any line will print those.
+example: 
+      1c1
+      <this is file1
+      -------------------
+      >this is file2
+
+"<" -- this indicates the contents from the file1
+">" -- this indicates the contents from the file2
+
